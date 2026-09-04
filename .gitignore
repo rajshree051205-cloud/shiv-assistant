@@ -1,0 +1,6 @@
+﻿venv/
+__pycache__/
+*.pyc
+shiv.db
+vosk-model-en/
+vosk-model-small-en-in-0.4/

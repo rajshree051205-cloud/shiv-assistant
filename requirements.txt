@@ -1,0 +1,8 @@
+flask
+pyttsx3
+vosk
+sounddevice
+requests
+pystray
+pillow
+pywin32

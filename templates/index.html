@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shiv — Rajshree's Assistant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="top">
+    <div class="mark">श</div>
+    <div class="title-block">
+      <h1>Shiv</h1>
+      <p class="subtitle">Rajshree's assistant &mdash; running locally on this laptop</p>
+    </div>
+    <div class="status" id="status">
+      <span class="dot"></span>
+      <span id="status-text">Ready</span>
+    </div>
+  </header>
+
+  <main class="grid">
+
+    <section class="panel talk">
+      <h2>Talk to Shiv</h2>
+      <div class="history" id="history"></div>
+      <form id="command-form" class="command-form">
+        <input type="text" id="command-input" placeholder="Type a command, or ask something…" autocomplete="off">
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <aside class="side">
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Notes</h2>
+        </div>
+        <form id="note-form" class="mini-form">
+          <input type="text" id="note-input" placeholder="Add a note…" autocomplete="off">
+          <button type="submit">Add</button>
+        </form>
+        <ul class="list" id="notes-list"></ul>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Reminders</h2>
+        </div>
+        <form id="reminder-form" class="mini-form">
+          <input type="text" id="reminder-input" placeholder="e.g. remind me at 5pm to call mom" autocomplete="off">
+          <button type="submit">Set</button>
+        </form>
+        <ul class="list" id="reminders-list"></ul>
+      </section>
+
+    </aside>
+
+  </main>
+
+  <section class="panel history-full">
+    <div class="panel-head">
+      <h2>Command history</h2>
+    </div>
+    <table class="history-table" id="history-table">
+      <thead>
+        <tr><th>Time</th><th>Source</th><th>You said</th><th>Shiv replied</th></tr>
+      </thead>
+      <tbody id="history-body"></tbody>
+    </table>
+  </section>
+
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
