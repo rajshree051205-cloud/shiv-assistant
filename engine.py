@@ -1,3 +1,4 @@
+
 # -*- coding: utf-8 -*-
 """
 engine.py
@@ -40,13 +41,38 @@ SLEEP_PATTERNS = [
 
 # ---------------- wake word patterns ----------------
 
+# Vosk sometimes hears "Shiv" incorrectly as
+# "shoe", "shoo", "shove", etc.
+#
+# "tell me" is also accepted as a trigger.
+#
+# IMPORTANT:
+# "hi" and "hello" alone are NOT triggers.
+
 WAKE_BACK_PATTERNS = [
+    # Shiv and common Vosk misrecognitions
     "shiv",
-    "hii shiv",
-    "sun shiv",
+    "shoe",
+    "shoo",
+    "shove",
+    "shev",
+
+    # Shiv variations
     "shiv yaar",
+    "shoe yaar",
+    "shoo yaar",
+    "shove yaar",
+
+    # Common phrases containing Shiv
+    "hii shiv",
+    "hi shiv",
+    "hey shiv",
     "hello shiv",
+    "sun shiv",
     "namaste shiv",
+
+    # Alternative trigger
+    "tell me",
 ]
 
 
@@ -87,18 +113,30 @@ def is_wake_word(text):
     """
     Detects Shiv's wake word.
 
-    Examples that wake Shiv:
+    Accepted wake words / phrases:
+
         shiv
-        hii shiv
-        sun shiv
+        shoe
+        shoo
+        shove
+        shev
+
         shiv yaar
+        hii shiv
+        hi shiv
+        hey shiv
         hello shiv
+        sun shiv
         namaste shiv
 
+        tell me
+
     Random words such as:
+
         yes
         oh
-        hi hi
+        hi
+        hello
         shame
 
     will NOT wake Shiv.
@@ -113,6 +151,11 @@ def is_wake_word(text):
             return True
 
         # Allow extra words after the wake phrase
+        #
+        # Example:
+        # "tell me what is the time"
+        # "shiv what is the weather"
+        #
         if t.startswith(pattern + " "):
             return True
 
@@ -181,6 +224,10 @@ def _try_dynamic(text):
 
         for w in [
             "shiv",
+            "shoe",
+            "shoo",
+            "shove",
+            "shev",
             "play",
             "open",
             "video",
@@ -205,7 +252,7 @@ def _try_dynamic(text):
     ):
 
         content = re.sub(
-            r"\b(shiv|note this|note down|note|yaad rakhna|note kar lo|ye note kar)\b",
+            r"\b(shiv|shoe|shoo|shove|shev|note this|note down|note|yaad rakhna|note kar lo|ye note kar)\b",
             "",
             t
         ).strip(
@@ -289,6 +336,7 @@ def process_command(
     """
     text: what the user said/typed
     source: 'voice' or 'web'
+
     Returns the response text.
     """
 
@@ -341,3 +389,4 @@ def process_command(
     )
 
     return response
+
