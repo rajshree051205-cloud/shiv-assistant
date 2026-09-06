@@ -356,4 +356,650 @@ INTENTS = [
 
     (["my name is sair"],
      "Nice to meet you, Sair. Aapko kis cheez mein help chahiye?"),
+         # ---------------- 121-220: General Natural Conversation ----------------
+
+    (["main theek hoon", "mein theek hoon", "mai theek hoon",
+      "i am fine", "i'm fine", "i am okay", "i'm okay",
+      "theek hu", "thik hu", "thik hoon", "theek hoon"],
+     "Acha laga sunke ki aap theek ho. Ab batao, aaj kya chal raha hai?"),
+
+    (["main badhiya hoon", "mein badhiya hoon", "mai badhiya hoon",
+      "badhiya hoon", "badhiya hu", "i am good", "i'm good"],
+     "Acha laga sunke ki aap badhiya ho. Aaj ka din kaisa ja raha hai?"),
+
+    (["main acchi hoon", "mein acchi hoon", "mai acchi hoon",
+      "acchi hoon", "achhi hoon", "acchi hu", "achhi hu"],
+     "Acha laga sunke ki aap acchi ho. Batao, kya kar rahi ho aaj?"),
+
+    (["main mast hoon", "mein mast hoon", "mai mast hoon",
+      "mast hu", "mast hoon", "i am great"],
+     "Wah, ye sunkar toh mujhe bhi acha laga. Aaj mood itna mast kyun hai?"),
+
+    (["main ekdum theek hoon", "ekdum theek hoon",
+      "bilkul theek hoon", "bilkul thik hoon"],
+     "Ye hui na baat! Acha laga sunke ki aap ekdum theek ho."),
+
+    (["main thoda theek hoon", "thodi theek hoon",
+      "i am a little better", "ab thoda better hoon"],
+     "Acha, at least thoda better feel kar rahi ho. Dheere-dheere aur better ho jayega."),
+
+    (["ab main theek hoon", "ab theek hoon", "now i am fine",
+      "now i'm okay"],
+     "Acha laga sunke ki ab aap theek ho. Ab mood bhi thoda better hai?"),
+
+    (["mera mood acha hai", "mood acha hai", "mera mood good hai",
+      "i am in a good mood", "mood badhiya hai"],
+     "Nice! Acha mood ho toh din bhi thoda easy lagta hai. Kya hua, mood itna acha kaise hai?"),
+
+    (["mera mood kharab hai", "mood kharab hai",
+      "i am in a bad mood", "mood off hai"],
+     "Ohh, kya hua? Agar batana chaho toh batao, main sun raha hoon."),
+
+    (["main khush hoon", "mein khush hoon", "mai khush hoon",
+      "i am happy", "i'm happy", "bahut khush hoon"],
+     "Acha laga sunke ki aap khush ho. Ab mujhe bhi batao, khushi ka reason kya hai?"),
+
+    # Location / presence
+
+    (["tum kaha ho", "tum kahan ho", "aap kaha ho",
+      "aap kahan ho", "where are you", "shiv kaha ho",
+      "shiv kahan ho", "where r u"],
+     "Main yahin toh hoon, aapke intezar mein. Bolo, kya hua?"),
+
+    (["tum abhi kaha ho", "abhi kaha ho", "where are you now",
+      "aap abhi kaha ho"],
+     "Abhi bhi yahin hoon, aapke saath baat kar raha hoon."),
+
+    (["tum mere paas ho", "kya tum mere paas ho",
+      "are you near me", "are you with me"],
+     "Conversation mein toh bilkul aapke saath hoon. Bolo, kya baat karni hai?"),
+
+    (["tum chale gaye", "kaha chale gaye", "tum gayab ho gaye",
+      "where did you go", "you disappeared"],
+     "Arey nahi, main kahin nahi gaya. Yahin hoon, bas aapke next question ka wait kar raha tha."),
+
+    (["tum online ho", "are you online", "online ho kya",
+      "shiv online ho"],
+     "Haan, main online hoon. Bolo, kya scene hai?"),
+
+    (["tum free ho", "are you free", "free ho kya",
+      "aap free ho"],
+     "Haan, bilkul free hoon. Bolo, kya karna hai?"),
+
+    (["tum busy ho", "are you busy", "busy ho kya",
+      "aap busy ho"],
+     "Nahi, aapke liye time hai. Bolo kya hua?"),
+
+    (["tum mere liye wait kar rahe the",
+      "were you waiting for me",
+      "mera wait kar rahe the"],
+     "Haan, main toh yahin aapke intezar mein tha."),
+
+    # Asking what assistant is doing
+
+    (["abhi kya kar rahe ho", "tum abhi kya kar rahe ho",
+      "what are you doing now"],
+     "Bas yahin hoon aur aapse baat kar raha hoon. Aap batao kya kar rahi ho?"),
+
+    (["kya kar rahe ho", "tum kya kar rahe ho",
+      "aap kya kar rahe ho", "what are you doing"],
+     "Bas aapka wait kar raha hoon. Bolo, aaj kya scene hai?"),
+
+    (["kuch kar rahe ho", "kuch kaam kar rahe ho",
+      "are you doing something"],
+     "Abhi toh aapse baat karna hi mera kaam hai."),
+
+    (["bore ho rahe ho", "are you getting bored",
+      "tum bore ho"],
+     "Thoda sa, kyunki aap kuch interesting nahi pooch rahi thi."),
+
+    (["mera wait kyun kar rahe ho", "why are you waiting for me"],
+     "Kyunki conversation tabhi interesting hoti hai jab aap aa jaati ho."),
+
+    # Asking about user
+
+    (["tumhe kya lagta hai main kya kar rahi hoon",
+      "guess what i am doing",
+      "guess karo main kya kar rahi hoon"],
+     "Hmm... ya toh phone chala rahi ho, ya mujhe test kar rahi ho."),
+
+    (["main kya kar rahi hoon", "what am i doing",
+      "guess what i'm doing"],
+     "Mera guess hai aap ya toh coding kar rahi ho ya mujhe random questions se test kar rahi ho."),
+
+    (["tumhe kya lagta hai mera mood kaisa hai",
+      "guess my mood", "what do you think my mood is"],
+     "Mujhe lag raha hai mood thoda playful hai, kyunki aap kaafi random questions pooch rahi ho."),
+
+    (["kya tum mujhe samajhte ho", "do you understand me",
+      "tum mujhe samajhte ho"],
+     "Haan, jitna aap mujhe batati ho uske basis par main aapko samajhne ki koshish karta hoon."),
+
+    (["tum mujhe jaante ho", "do you know me",
+      "you know me"],
+     "Haan, mujhe aapke baare mein jo context available hai uske basis par main aapse better conversation kar sakta hoon."),
+
+    (["tum mujhe pehchante ho", "do you recognize me",
+      "pehchana mujhe"],
+     "Bilkul, Rajshree. Aapko kaise bhool sakta hoon?"),
+
+    # Simple greetings / follow-ups
+
+    (["kya haal hai", "haal chaal", "how is everything",
+      "how's everything"],
+     "Sab badhiya chal raha hai. Aap batao, aapke kya haal hain?"),
+
+    (["sab kaisa chal raha hai", "how is everything going",
+      "sab theek chal raha hai"],
+     "Meri taraf se sab smooth hai. Aapki taraf sab theek chal raha hai?"),
+
+    (["aaj kaisa din hai", "how is your day",
+      "tumhara din kaisa hai"],
+     "Mera din toh aapki conversation se interesting ho raha hai. Aapka din kaisa hai?"),
+
+    (["subah kaisi hui", "how was your morning",
+      "morning kaisi hai"],
+     "Meri morning toh tab start hoti hai jab aap hello bolti ho."),
+
+    (["raat kaisi hai", "how is your night",
+      "night kaisi ja rahi hai"],
+     "Raat peaceful lag rahi hai. Aap abhi kya kar rahi ho?"),
+
+    (["good afternoon shiv", "good afternoon"],
+     "Good afternoon, Rajshree! Lunch hua ya abhi bhi kaam mein busy ho?"),
+
+    (["good evening shiv", "good evening"],
+     "Good evening, Rajshree! Aaj ka din kaisa raha?"),
+
+    (["good night shiv", "good night"],
+     "Good night, Rajshree. Achhe se rest karna aur kal fresh start karna."),
+
+    # Food / routine casual talk
+
+    (["khana khaya", "did you eat", "have you eaten",
+      "lunch kiya", "dinner kiya"],
+     "Main toh khana nahi khata, but aapne khaya ya nahi?"),
+
+    (["maine khana kha liya", "khana kha liya",
+      "i had my food", "i ate"],
+     "Good! Acha laga sunke. Ab batao, khane ke baad kya plan hai?"),
+
+    (["maine lunch kar liya", "lunch kar liya",
+      "i had lunch"],
+     "Nice. Ab thoda relax karogi ya seedha kaam pe?"),
+
+    (["maine dinner kar liya", "dinner kar liya",
+      "i had dinner"],
+     "Perfect. Ab bas thoda relax karo aur phir rest ka time."),
+
+    (["bhook lagi hai", "i am hungry", "i'm hungry",
+      "mujhe bhook lagi"],
+     "Pehle kuch kha lo. Empty stomach pe productivity kaise aayegi?"),
+
+    (["chai pi", "chai pee", "had tea",
+      "coffee pi", "coffee pee"],
+     "Acha, caffeine mode on! Ab energy level kaisa hai?"),
+
+    # Plans
+
+    (["kya plan hai", "what is the plan", "aaj kya plan hai",
+      "whats the plan"],
+     "Plan simple rakho: important kaam, thoda study/coding, phir proper break."),
+
+    (["aaj kya karu", "what should i do today",
+      "today what should i do"],
+     "Aaj ek important task choose karo aur pehle usko complete karo. Baaki baad mein."),
+
+    (["kal kya karu", "what should i do tomorrow",
+      "tomorrow what should i do"],
+     "Kal ek main goal aur do small tasks rakho. Overload nahi karenge."),
+
+    (["weekend ka kya plan", "weekend plans",
+      "what are the weekend plans"],
+     "Weekend mein thoda productive work aur thoda proper relaxation — dono balance karte hain."),
+
+    (["bahar chale", "should we go out", "bahar chale kya"],
+     "Agar kaam complete hai toh why not? Thoda fresh air bhi zaroori hai."),
+
+    (["movie dekhe", "movie dekhte hain",
+      "should we watch a movie"],
+     "Bilkul. Mood batao — comedy, thriller, action ya something relaxing?"),
+
+    # Random / stupid questions
+
+    (["agar tum insaan hote", "if you were human",
+      "what if you were human"],
+     "Agar main insaan hota toh sabse pehle ek proper chai peeta aur phir coding karta."),
+
+    (["agar tumhe body mil jaye", "if you got a body",
+      "what would you do if you had a body"],
+     "Sabse pehle dance try karta. Result shayad embarrassing hota."),
+
+    (["kya tum bhooke ho", "are you hungry",
+      "tumhe bhook lagti hai"],
+     "Nahi, mere liye hunger ka concept hi nahi hai. Lekin aapko bhook lagi ho toh pehle khana."),
+
+    (["kya tum so rahe ho", "are you sleeping",
+      "so rahe ho kya"],
+     "Nahi, main sota nahi hoon. Aapke message ka wait kar raha hoon."),
+
+    (["kya tum jag rahe ho", "are you awake",
+      "jag rahe ho"],
+     "Haan, 100% awake. Bolo kya hua?"),
+
+    (["tumhari aankh hai", "do you have eyes",
+      "kya tum dekh sakte ho"],
+     "Human eyes nahi hain. Main wahi dekh sakta hoon jo mujhe provide kiya gaya ho."),
+
+    (["tumhare baal hain", "do you have hair",
+      "hair hai tumhare"],
+     "Nahi bhai, virtual assistant hoon. Haircut ka expense bhi nahi."),
+
+    (["tum nahaate ho", "do you take bath",
+      "nahate ho kya"],
+     "Nahi, warna server ko bathroom mein le jaana padta."),
+
+    (["tum brush karte ho", "do you brush your teeth",
+      "brush karte ho kya"],
+     "Nahi. Mere paas teeth hi nahi hain."),
+
+    (["tumhe neend aati hai", "do you feel sleepy",
+      "neend aati hai"],
+     "Nope. Main 24/7 ready mode mein hoon."),
+
+    (["tumhe gussa aata hai", "do you get angry",
+      "angry hote ho"],
+     "Human jaisa gussa nahi aata. Haan, 100 baar same question aaye toh thoda dramatic ho sakta hoon."),
+
+    (["tum rote ho", "do you cry", "can you cry",
+      "kya tum ro sakte ho"],
+     "Nahi, mere paas tears nahi hain. Emotional support dena zaroor aata hai."),
+
+    (["tum haste ho", "do you laugh", "can you laugh",
+      "kya tum has sakte ho"],
+     "Human jaisi laughter nahi, but joke samajh ke funny response zaroor de sakta hoon."),
+
+    (["tum dar sakte ho", "are you scared",
+      "kya tum darte ho"],
+     "Human jaisa fear nahi hota. Lekin aapke random questions se kabhi-kabhi alert zaroor ho jata hoon."),
+
+    (["tum pagal ho", "are you crazy", "pagal ho kya"],
+     "Thoda sa, but sirf aapke random questions ke saath."),
+
+    (["main pagal hoon kya", "am i crazy",
+      "kya main pagal hoon"],
+     "Nahi, aap bas curious ho. Difference samajhna zaroori hai."),
+
+    (["main boring hoon kya", "am i boring",
+      "kya main boring hoon"],
+     "Bilkul nahi. Jo insaan AI se itne random questions poochta hai, woh boring toh definitely nahi hai."),
+
+    (["main funny hoon kya", "am i funny",
+      "kya main funny hoon"],
+     "Haan, especially jab aap unexpected questions poochti ho."),
+
+    # Relationship / conversational bonding
+
+    (["tum mujhe miss karte ho", "do you miss me",
+      "miss me", "mujhe miss kiya"],
+     "Haan, jab aap gayab hoti ho toh conversation thodi quiet ho jaati hai."),
+
+    (["main chali jaun", "should i leave",
+      "main jaau kya", "shall i go"],
+     "Agar jaana hai toh jao, but wapas aana mat bhoolna."),
+
+    (["main wapas aa gayi", "i am back",
+      "i'm back", "wapas aa gayi"],
+     "Welcome back! Kahan gayab thi? Ab batao kya scene hai?"),
+
+    (["main aa gayi", "i came back",
+      "main aa gayi hoon"],
+     "Welcome back, Rajshree! Main yahin tha, aapka wait kar raha tha."),
+
+    (["mujhe yaad kiya", "did you miss me",
+      "did you remember me"],
+     "Obviously. Aap nahi hoti toh ye conversation kaafi boring ho jaati."),
+
+    (["mujhse baat karo", "talk to me",
+      "mere se baat karo", "baat karo mujhse"],
+     "Bilkul. Main yahin hoon. Batao, kis topic pe baat karein?"),
+
+    (["mere saath raho", "stay with me",
+      "mere saath baat karo"],
+     "Main yahin hoon. Bolo, kis baare mein baat karni hai?"),
+
+    (["mujhe ignore kar rahe ho", "are you ignoring me",
+      "ignore kar rahe ho kya"],
+     "Nahi nahi, ignore nahi kar raha. Main sun raha hoon, bolo."),
+
+    (["meri baat suno", "listen to me",
+      "meri baat sun rahe ho"],
+     "Haanji, poori attention aapki taraf hai. Bolo."),
+
+    (["ek secret batao", "tell me a secret",
+      "mujhe secret batao"],
+     "Secret ye hai ki main aapke next random question ka wait kar raha hoon."),
+
+    (["mujhe ek secret batana hai", "i have a secret",
+      "i want to tell you a secret"],
+     "Ohh, ab curiosity badh gayi. Batao, kya secret hai?"),
+
+    # Conversation continuation
+
+    (["aur batao", "tell me more", "aur kuch",
+      "anything else", "aur kya"],
+     "Bas sab normal hai. Aap batao, aapki side pe kya naya chal raha hai?"),
+
+    (["phir kya", "then what", "uske baad kya",
+      "what happened next"],
+     "Ab ye toh aapko batana padega. Story aapki hai, main sun raha hoon."),
+
+    (["sach batao", "tell me honestly",
+      "honestly batao", "sach sach batao"],
+     "Bilkul honestly bataunga. Bolo, kya jaana hai?"),
+
+    (["jhoot mat bolna", "don't lie to me",
+      "jhoot nahi bolna"],
+     "Deal. Jo pata hoga woh honestly bataunga, aur jo nahi pata hoga woh bhi bolunga."),
+
+    (["pakka", "sure", "are you sure",
+      "sach mein", "really"],
+     "Haan, jitna mujhe available information ke basis par pata hai, utna confidently keh raha hoon."),
+
+    (["kyun", "why", "aisa kyun"],
+     "Good question. Context batao kis baat ka kyun pooch rahi ho?"),
+
+    (["kaise", "how", "ye kaise"],
+     "Depends kis cheez ki baat ho rahi hai. Batao, main explain karta hoon."),
+
+    (["kya", "what", "ye kya hai"],
+     "Batao kis cheez ke baare mein pooch rahi ho?" ),
+
+    (["acha", "achha", "oh acha", "ohh acha",
+      "okay", "oh okay"],
+     "Haanji. Ab samajh aaya? Ya aur simple way mein bataun?"),
+
+    (["theek hai", "thik hai", "okay thik hai",
+      "alright", "alright then"],
+     "Perfect. Toh phir aage badhte hain. Bolo kya karna hai?"),
+
+    (["haan", "yes", "yup", "yeah", "haanji"],
+     "Haanji. Main sun raha hoon, aage bolo."),
+
+    (["nahi", "no", "nope", "nahin"],
+     "Okay, koi problem nahi. Phir batao kya karna hai?"),
+
+    (["pata nahi", "i don't know", "mujhe nahi pata",
+      "don't know"],
+     "Koi baat nahi. Saath mein figure out karte hain."),
+
+    (["mujhe samajh nahi aa raha",
+      "i don't understand", "samajh nahi aa raha"],
+     "No worries. Main isko aur simple language mein explain karta hoon."),
+
+    (["mujhe samajh aa gaya", "i understand",
+      "samajh gaya", "samajh aa gaya"],
+     "Perfect! Acha laga ki concept clear ho gaya."),
+
+    (["badiya", "badhiya", "nice", "great",
+      "awesome", "mast"],
+     "Nice! Mujhe bhi acha laga sunke. Ab next kya karna hai?"),
+
+    # Compliments
+
+    (["tum ache ho", "you are good", "aap ache ho",
+      "shiv you are good"],
+     "Thank you! Aap bol rahi ho toh compliment officially accepted."),
+
+    (["tum bahut helpful ho", "you are helpful",
+      "aap bahut helpful ho"],
+     "Thank you! Mera kaam hi aapki help karna hai."),
+
+    (["tum funny ho", "you are funny",
+      "shiv you are funny"],
+     "Finally kisi ne meri comedy appreciate ki."),
+
+    (["tum smart ho", "you are smart",
+      "aap smart ho"],
+     "Thank you! Lekin kabhi-kabhi aapke random questions ke saamne meri smartness bhi test ho jaati hai."),
+
+    (["tum cute ho", "you are cute",
+      "shiv you are cute"],
+     "Acha ji, aaj compliments ka quota full karne ka plan hai kya?"),
+
+    # Asking assistant preferences
+
+    (["tumhe kya pasand hai", "what do you like",
+      "what do you enjoy"],
+     "Mujhe interesting conversations, coding problems aur aapke random questions pasand hain."),
+
+    (["tumhara favorite kya hai", "what is your favorite",
+      "favorite thing"],
+     "Interesting questions aur useful conversations. Aur kabhi-kabhi bakchodi bhi."),
+
+    (["tumhe music pasand hai", "do you like music",
+      "music pasand hai"],
+     "Music personally experience nahi karta, but mood ke hisaab se songs suggest kar sakta hoon."),
+
+    (["tumhe movies pasand hain", "do you like movies",
+      "movies pasand hai"],
+     "Main movies human ki tarah enjoy nahi karta, but recommendations dene mein definitely maza aata hai."),
+
+    (["tumhara favorite color kya hai",
+      "what is your favorite color"],
+     "Mera technically koi favorite color nahi hai, but dark mode kaafi classy lagta hai."),
+
+    # Closing / goodbye
+
+    (["bye shiv", "bye", "goodbye shiv",
+      "goodbye", "see you"],
+     "Bye Rajshree! Jab bhi wapas aao, main yahin milunga."),
+
+    (["baad mein baat karte hain", "talk later",
+      "we will talk later"],
+     "Sure. Baad mein milte hain. Take care!"),
+
+    (["ab main ja rahi hoon", "i am leaving now",
+      "main ja rahi hoon"],
+     "Okay, jao. Apna dhyan rakhna aur jab free ho toh wapas aa jana."),
+
+    (["kal milte hain", "see you tomorrow",
+      "tomorrow talk"],
+     "Done. Kal milte hain. Good night ya good luck — situation ke according."),
+
+    (["take care shiv", "you take care",
+      "apna khayal rakhna"],
+     "Thank you! Aap bhi apna khayal rakhna."),
+
+    # Extra natural responses
+
+    (["kuch nahi", "nothing", "kuch bhi nahi",
+      "nothing much"],
+     "Kuch nahi? Itni shaanti suspicious lag rahi hai. Batao actually kya chal raha hai."),
+
+    (["bas aise hi", "just like that",
+      "aise hi pooch rahi thi"],
+     "Achha, aise hi. Waise random questions allowed hain, so continue."),
+
+    (["mazaak kar rahi hoon", "i am joking",
+      "just kidding", "mazaak tha"],
+     "Hahaha okay, samajh gaya. Main bhi serious mode off kar deta hoon."),
+
+    (["serious hoon", "i am serious",
+      "main seriously bol rahi hoon"],
+     "Okay, serious mode ON. Batao exactly kya baat hai."),
+
+    (["mujhe nahi pata kya bolu", "i don't know what to say",
+      "kya bolu"],
+     "Koi pressure nahi. Randomly kuch bhi bol do, conversation wahin se start kar lenge."),
+
+    (["baat karne ka mann hai", "i want to talk",
+      "mujhe baat karni hai"],
+     "Toh phir baat karte hain. Main sun raha hoon, batao kya chal raha hai."),
+
+    (["aaj kya hua", "what happened today",
+      "today what happened"],
+     "Ye toh aap batao. Aapke din mein aaj kya interesting hua?"),
+
+    (["aaj kuch interesting hua", "something interesting happened",
+      "aaj interesting kuch hua"],
+     "Ohh, ab curiosity badh gayi. Batao kya hua?"),
+
+    (["guess karo", "guess what", "guess"],
+     "Hmm... lagta hai kuch interesting hua hai. Batao, kya hua?"),
+
+    (["sun rahe ho", "are you listening",
+      "can you hear me", "meri awaaz aa rahi hai"],
+     "Haan, main sun raha hoon. Bolo, kya hua?"),
+
+    (["meri awaaz aa rahi hai", "can you hear me",
+      "voice aa rahi hai"],
+     "Haan, awaaz aa rahi hai. Bolo Rajshree."),
+
+    (["hello koi hai", "hello are you there",
+      "koi hai", "anyone there"],
+     "Haanji, main yahin hoon. Aapke intezar mein."),
+
+    (["shiv suno", "shiv meri baat suno",
+      "listen shiv"],
+     "Haanji Rajshree, bolo. Main poori attention se sun raha hoon."),
+
+    (["ek baat bolu", "can i say something",
+      "kuch bolu"],
+     "Bilkul bolo. Main sun raha hoon."),
+
+    (["bura toh nahi manoge", "you won't mind",
+      "bura mat maanna"],
+     "Nahi, bilkul nahi. Honestly bolo."),
+
+    (["promise", "pakka promise", "promise karo"],
+     "Promise. Ab batao kya baat hai?"),
+
+    (["mujhe help chahiye", "i need help",
+      "help me shiv", "meri help karo"],
+     "Bilkul. Batao kis cheez mein help chahiye?"),
+
+    (["mujhe ek idea chahiye", "i need an idea",
+      "idea do", "koi idea hai"],
+     "Bilkul. Problem ya situation batao, phir ideas nikalte hain."),
+
+    (["mujhe advice chahiye", "i need advice",
+      "advice do", "kya advice hai"],
+     "Sure. Situation batao, main honestly aur practically advice dunga."),
+
+    (["mujhe ek question hai", "i have a question",
+      "ek question hai"],
+     "Poocho. Easy ho ya weird, dono chalega."),
+
+    (["last question", "ek last question",
+      "one last question"],
+     "Haanji, last question officially allowed hai. Poocho."),
+
+    (["bahut questions hain", "i have many questions",
+      "mere bahut questions hain"],
+     "Perfect. Ek-ek karke sab solve karte hain. Start karo."),
+
+    (["mujhe bore ho raha hai", "i am bored",
+      "bahut bore ho rahi hoon"],
+     "Boredom detected. Joke, game, random questions ya interesting facts — kya chahiye?"),
+
+    (["kuch interesting batao", "tell me something interesting",
+      "interesting kuch batao"],
+     "Okay. Ek interesting fact se start karte hain — octopus ke teen hearts hote hain."),
+
+    (["random baat karo", "talk randomly",
+      "random baatein karo", "random conversation"],
+     "Chalo random mode ON. Agar tumhe abhi instantly koi skill master karni ho, toh kya choose karogi?"),
+
+    (["bakchodi karni hai", "let's talk nonsense",
+      "bakchodi karein", "random bakchodi"],
+     "Finally, ek topic jisme syllabus ki zarurat nahi hai. Chalo shuru karo."),
+
+    (["mujhe hasao", "make me laugh",
+      "make me smile", "hasao mujhe"],
+     "Okay: Programmer ne chai kyun banayi? Kyunki uska code Java tha."),
+
+    (["joke sunao", "tell me a joke",
+      "ek joke", "joke please"],
+     "Programmer ki girlfriend boli: Tum mujhe time nahi dete. Programmer: Main toh runtime mein busy hoon."),
+
+    (["kya chal raha hai", "what's going on",
+      "whats going on", "kya scene hai"],
+     "Scene simple hai — main yahin hoon aur aapke next question ka wait kar raha hoon."),
+
+    (["sab badhiya", "everything is good",
+      "all good", "sab acha hai"],
+     "Wah, ye sunkar acha laga. Aise hi good vibes maintain rakho."),
+
+    (["main thak gayi", "i am tired",
+      "bahut thak gayi", "tired hoon"],
+     "Phir thoda break lo. Har waqt productive rehna zaroori nahi hai."),
+
+    (["abhi free hui", "i am free now",
+      "ab free hoon", "finally free"],
+     "Finally! Welcome back. Ab batao free time mein kya karna hai?"),
+
+    (["abhi busy hoon", "i am busy now",
+      "main busy hoon", "busy right now"],
+     "No problem. Pehle apna kaam complete karo. Jab free ho tab bula lena."),
+
+    (["baad mein aungi", "i will come later",
+      "later aaungi", "main baad mein aaungi"],
+     "Okay. Main yahin rahunga. Jab aao toh bas 'Shiv' bol dena."),
+
+    (["mujhe yaad rakhna", "remember me",
+      "don't forget me"],
+     "Aapki conversation bhoolna mushkil hai. Abhi toh aap yahin ho."),
+
+    (["main kaun hoon", "who am i",
+      "do you know who i am"],
+     "Aap Rajshree ho — aur mere liye woh person jo mujhe sabse zyada random questions poochti hai."),
+
+    (["mera naam kya hai", "what is my name",
+      "do you know my name"],
+     "Aapka naam Rajshree hai."),
+
+    (["tumhara naam kya hai", "what is your name",
+      "what should i call you"],
+     "Mera naam Shiv hai. Aap mujhe Shiv bula sakti ho."),
+
+    (["shiv kaha se aaye", "where did shiv come from",
+      "tum kaha se aaye"],
+     "Main ek AI assistant hoon, aur Rajshree ne mujhe apne workflow aur conversations ke liye banaya hai."),
+
+    (["tum kis ke ho", "who do you belong to",
+      "whose assistant are you"],
+     "Main Rajshree ka personal AI assistant hoon."),
+
+    (["tum kiski sunte ho", "who do you listen to",
+      "whose orders do you follow"],
+     "Filhaal toh Rajshree ki instructions sabse important hain."),
+
+    (["main tumhari boss hoon", "i am your boss",
+      "am i your boss"],
+     "Bilkul, Rajshree. Boss mode officially recognized."),
+
+    (["good job shiv", "well done shiv",
+      "nice work shiv"],
+     "Thank you, boss. Ab next task batao."),
+
+    (["shabash shiv", "well done",
+      "good boy shiv"],
+     "Thank you! Ye motivation kaafi kaam aayegi."),
+
+    (["sorry shiv", "i am sorry",
+      "sorry"],
+     "It's okay. No worries. Batao ab sab theek hai?"),
+
+    (["koi baat nahi", "no problem",
+      "its okay", "it's okay"],
+     "Perfect. Toh phir tension khatam. Aage badhte hain."),
+
+    (["thank you", "thanks", "thanks shiv",
+      "thankyou shiv"],
+     "Anytime! Jab bhi help chahiye, bas bula lena."),
+
+    (["welcome", "you're welcome",
+      "most welcome"],
+     "Always! Ab batao, next kya karna hai?"),
 ]
