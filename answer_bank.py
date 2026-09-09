@@ -672,7 +672,7 @@ INTENTS = [
       "ignore kar rahe ho kya"],
      "Nahi nahi, ignore nahi kar raha. Main sun raha hoon, bolo."),
 
-    (["meri baat suno", "listen to me",
+    (["meri baat suno","sun bhai" ,"listen to me",
       "meri baat sun rahe ho"],
      "Haanji, poori attention aapki taraf hai. Bolo."),
 
@@ -765,7 +765,7 @@ INTENTS = [
 
     (["tum cute ho", "you are cute",
       "shiv you are cute"],
-     "Acha ji, aaj compliments ka quota full karne ka plan hai kya?"),
+     "Acha ji, aaj compliments ka quota full karne ka plan hai kya? but yaar tum mujhe se 100/0 time cute hu cutieeeeee"),
 
     # Asking assistant preferences
 
