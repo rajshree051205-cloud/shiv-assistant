@@ -11,7 +11,7 @@ import database as db
 import engine
 
 from vosk import Model, KaldiRecognizer
-from scipy.io import wavfile
+
 
 
 app = Flask(__name__)
