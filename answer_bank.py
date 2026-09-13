@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+ # -*- coding: utf-8 -*-
 """
 answer_bank.py
 ----------------
@@ -15,7 +15,7 @@ INTENTS = [
      "Main yahin hoon Rajshree, bolo kya chahiye."),
 
     (["hi shiv", "hello shiv", "hey", "hey shiv", "kaise ho", "kya haal hai",
-      "how are you", "how are you doing", "namaste shiv"],
+      "how are you", "how are you doing", "namaste shiv","hiii"],
      "Main ekdum good hoon, Rajshree.\nTum batao, kaise chal raha hai sab?"),
 
     # ---------------- 1-20: Morning, Daily Life & Motivation ----------------
