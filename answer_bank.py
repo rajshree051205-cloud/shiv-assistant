@@ -73,7 +73,7 @@ INTENTS = [
     (["give me a motivational quote"],
      "\"You don't have to see the whole staircase. Just take the next step.\" Bas next step pe focus karo."),
 
-    (["i'm tired"],
+    (["i'm tired","I am not feeling weel"],
      "Then take a proper break, Rajshree. Productivity ka matlab continuously kaam karna nahi hota. Recharge bhi important hai."),
 
     (["i had a bad day"],
