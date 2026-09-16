@@ -67,7 +67,7 @@ INTENTS = [
     (["i don't think i'm good enough"],
      "You don't need to be good enough right now. You just need to keep learning. Skills time ke saath build hoti hain."),
 
-    (["i want to give up"],
+    (["i want to give up","I think i should give up"],
      "Agar tired ho toh break le lo, but permanent decision temporary frustration mein mat lena. Rest karo, phir ek baar calmly try karte hain."),
 
     (["give me a motivational quote"],
