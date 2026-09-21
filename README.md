@@ -405,7 +405,7 @@ The architecture is intentionally modular so new capabilities can be added witho
 
 ### Rajshree Kavia
 
-**B.Tech CSE Student | Frontend Developer | AI & Agent Enthusiast**
+**B.Tech CSE Student | Full Stack Developer | AI & Agent Enthusiast**
 
 Building projects, breaking bugs, and learning how things work under the hood.
 
