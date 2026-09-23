@@ -37,7 +37,7 @@ INTENTS = [
     (["what should i work on first"],
      "Jo kaam sabse important ya urgent hai, usse first karte hain. Easy tasks baad mein."),
 
-    (["am i wasting my time"],
+    (["am i wasting my time","do you think I am wasting my time"],
      "Agar tum important kaam chhod kar bas scrolling kar rahi ho, then thoda sa, yes. Phone side mein rakho aur 20-30 minutes focused work karte hain."),
 
     (["remind me what i have to do today"],
