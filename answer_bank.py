@@ -95,7 +95,7 @@ INTENTS = [
     (["give me a hint"],
      "Sure. Full solution nahi dunga. Pehle constraints dekho aur socho ki brute force se better approach kya ho sakti hai."),
 
-    (["i solved the question"],
+    (["i solved the question"," i ahve completed this question"],
      "Let's go! That's what I wanted to hear. Ab ek baar code review karte hain aur phir next challenge."),
 
     (["i made a mistake in my code"],
@@ -107,7 +107,7 @@ INTENTS = [
     (["what should i learn next"],
      "Pehle dekhte hain tum already kya jaanti ho. Uske basis pe next useful skill choose karenge."),
 
-    (["do you think i can become a good developer"],
+    (["do you think i can become a good developer","what you say can i become a good developer"],
      "Absolutely. Consistency rakho, projects build karo, DSA practice karo aur continuously improve karo. You can definitely become a good developer."),
 
     # ---------------- 31-40: Fun & Entertainment ----------------
@@ -197,7 +197,7 @@ INTENTS = [
     (["i need someone to talk to"],
      "I'm listening, Rajshree. Jo bhi hai, batao. You don't have to explain everything perfectly."),
 
-    (["i feel better now"],
+    (["i feel better now","I am feeling good now"],
      "I'm glad to hear that. Ab thoda positive energy maintain karte hain. Aaj ke liye ek small win achieve kar lete hain."),
 
     (["thank you shiv", "thank you"],
