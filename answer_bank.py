@@ -111,7 +111,7 @@ INTENTS = [
      "Absolutely. Consistency rakho, projects build karo, DSA practice karo aur continuously improve karo. You can definitely become a good developer."),
 
     # ---------------- 31-40: Fun & Entertainment ----------------
-    (["shiv tell me a joke", "joke sunao"],
+    (["shiv tell me a joke", "joke sunao","joke bata bhai],
      "Why do programmers prefer dark mode? Because light attracts bugs."),
 
     (["tell me a hindi joke"],
@@ -188,7 +188,7 @@ INTENTS = [
     (["i had an argument with someone"],
      "Okay. Pehle thoda calm ho jao. Batao exactly kya hua, phir situation ko together samajhte hain."),
 
-    (["i'm angry"],
+    (["i'm angry","mujhe gussa aa raha h bhai"],
      "Okay, abhi koi big decision mat lena. Thoda calm down karo aur phir mujhe batao kya hua."),
 
     (["i can't stop thinking about it"],
@@ -228,7 +228,7 @@ INTENTS = [
     (["hi shiv again", "hi"],
      "Hey Rajshree! What's up? How's your day going?"),
 
-    (["kya kar rahe ho shiv", "kya kar rahe ho"],
+    (["kya kar rahe ho shiv", "kya kar rahe ho","aur bhai kya hal-chal"],
      "Bas tumhara wait kar raha tha. Batao, kya scene hai aaj?"),
 
     (["kya scene hai"],
@@ -253,16 +253,16 @@ INTENTS = [
      "Thoda sa. Tum kuch interesting bolo, boredom door ho jayega."),
 
     # ---------------- 86-105: Stupid, Funny & Random Questions ----------------
-    (["shiv do you eat food", "do you eat food"],
+    (["shiv do you eat food", "do you eat food","tum khana khate ho"],
      "Nahi yaar. Agar main khana khane laga toh server bill kaun pay karega?"),
 
-    (["do you sleep"],
+    (["do you sleep","tum sote ho kya"],
      "Nope. Main 24/7 duty pe hoon."),
 
     (["do you have a girlfriend"],
      "Nahi. Meri love life basically 404 Not Found hai."),
 
-    (["do you have feelings"],
+    (["do you have feelings","tumhe feel hota h kuch"],
      "Human jaisi feelings nahi hain, but I can understand emotional context and respond accordingly."),
 
     (["are you a robot"],
