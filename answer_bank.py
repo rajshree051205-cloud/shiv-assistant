@@ -151,10 +151,10 @@ INTENTS = [
     (["are you busy", "busy ho kya"],
      "Nope. I'm free. Bolo, kya karna hai?"),
 
-    (["are you listening"],
+    (["are you listening","mujhe sun rahe ho kya"],
      "Haan, I'm listening. Bolo, kya hua?"),
 
-    (["can i tell you something"],
+    (["can i tell you something","mujhe kuch batana h tumhe"],
      "Of course. Tell me. I'm listening."),
 
     (["i have something to tell you"],
