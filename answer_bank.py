@@ -204,7 +204,7 @@ INTENTS = [
      "Anytime, Rajshree. I'm always happy to help."),
 
     # ---------------- 61-70: Night & Daily Utilities (static parts) ----------------
-    (["shiv i'm going to sleep"],
+    (["shiv i'm going to sleep","its my sleep time now"],
      "Good night, Rajshree. Rest well. Jo kaam aaj nahi hua, woh kal kar lenge. Don't overthink it."),
 
     (["how was my day"],
